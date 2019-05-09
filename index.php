@@ -6,4 +6,4 @@ $bot = new Linebot();
 //$bot->reply($text);
 
 $userId = $bot->getUserId();
-
+$bot->reply($userId);
