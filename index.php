@@ -6,3 +6,4 @@ $bot = new Linebot();
 //$bot->reply($text);
 
 $bot->pushText($userId, 'Hello Simple Text!');
+$bot->reply($result);
