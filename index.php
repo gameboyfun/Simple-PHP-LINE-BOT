@@ -5,4 +5,5 @@ $bot = new Linebot();
 //$text = $bot->getMessageText();
 //$bot->reply($text);
 
-$bot->pushText($userId, 'Hello Simple Text!');
+$imageUrl = "https://sites.google.com/site/khxmuleleasarsnthes/_/rsrc/1480953778509/watthuprasngkh/googlelogo_color_284x96dp.png";
+$bot->pushImage($userId, $imageUrl);
